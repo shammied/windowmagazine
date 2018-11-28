@@ -35,11 +35,12 @@ html, body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Cutive Mono";
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }
 
