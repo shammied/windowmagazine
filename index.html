@@ -6,11 +6,31 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body bgcolor="white">
+
+</script>
   <div class="main">
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">About</a>
+    <a href="#news">Issues</a>
+    <a href="#contact">Get Involved</a>
+    <a href="#about">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+    }
 
 
-    
   </div>
 
 </html>
